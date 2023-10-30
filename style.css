@@ -804,8 +804,6 @@ footer {
   
   }
   
- 
-  
   .section-4 {
     display: flex;
     background-color: rgba(180, 171, 171, 0.103);
@@ -835,20 +833,16 @@ footer {
     width: 300px;
   }
   .men {
-    /* margin-top: 120px; */
-  
     width: 130px;
     height: 130px;
     
   }
-  
   
   section {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
-    /* flex-wrap: wrap; */
   }
 
   /* section5 */
