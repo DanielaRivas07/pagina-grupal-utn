@@ -148,22 +148,6 @@ body {
 
 }
 
-button {
-  width: 90px;
-  height: 50px;
-  background-color: #f8f1f1;
-  border: 0;
-  margin-top: 40px;
-}
-
-button i {
-  color: gray;
-}
-
-button:hover {
-  background-color: black;
-}
-
 .img-btn {
   width: 100%;
 
@@ -215,9 +199,12 @@ button:hover {
 }
 
 .marge {
-  margin: 0px 0px 0% 0px;
+  margin: 0px 0px 0px 0px;
 }
 
+.marge i{
+  font-size: 20px;
+}
 .parrafo2 {
   font-family: 'Roboto', sans-serif;
   font-style: italic;
@@ -703,6 +690,167 @@ footer {
     margin: 10px 0px 0px 0px;
   }
 
+  /* fin de section2 */
+
+
+  .contenedor {
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: -200px;
+    margin-bottom: 40px;
+  }
+
+  .texto {
+    font-size: 14px;
+      margin: 0px;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 30px;
+  }
+  
+  .texto p {
+    padding: 10px;
+    width: 300px;
+    margin-left: -270px;
+    text-align: center;
+  }
+  
+  .red-more{
+    text-align:left;
+    margin-left: -150px;
+  }
+  
+  .seeall {
+    margin-left: 0px;
+  }
+  
+  .seeall a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .titulo-1 {
+    
+    font-size: 30px;
+      margin-top:  200px;
+      flex-direction: column;
+      text-align: center;
+      margin-left: -280px;
+      margin-bottom: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    
+  }
+  
+  .section-3 {
+    display: flex;
+    margin-top: 40px;
+  }
+  .contenedor2 {
+    display: flex;
+    text-align:right;
+    margin-right: -1500px;
+    flex-direction: column;
+    padding-right: 100px;
+  }
+  
+  .tp-1 {
+  
+    font-size: 14px;
+    margin-top:  60px;
+    flex-direction: column;
+    text-align: center;
+    margin-left: -370px;
+    margin-bottom: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  .titulo-2 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: -10px;
+  }
+  
+  .parrafo-2{
+    font-size: 14px;
+    margin-top:  20px;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    width: 300px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  
+  }
+  
+  
+  .img8 {
+    display: flex;
+    height: 450px;
+   margin-left: -250px;
+    margin-top: 450px;
+    width: 300px;
+    height: 200px;
+  }
+  
+  
+  .img9 {
+    display: flex;
+    height: 450px;
+    margin-left: -360px;
+    margin-top: 290px;
+    width:300px;
+    height: 200px;
+  
+  }
+  
+ 
+  
+  .section-4 {
+    display: flex;
+    background-color: rgba(180, 171, 171, 0.103);
+  }
+  .div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 900px;
+    margin: 50px 0;
+  }
+  
+  .display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .display .tp-2 {
+    margin-left: 20px;
+  }
+  
+  .ultimoparrafo {
+    margin: 30px;
+    width: 300px;
+  }
+  .men {
+    /* margin-top: 120px; */
+  
+    width: 130px;
+    height: 130px;
+    
+  }
+  
+  
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* flex-wrap: wrap; */
+  }
+
   /* section5 */
   .sec5{
     margin: auto;
@@ -1032,6 +1180,172 @@ footer {
   .btn-2 {
     margin-top: 20px;
   }
+
+  .contenedor {
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+    
+      margin-top: -200px;
+    margin-bottom: 40px;
+    
+    
+  }
+  
+  
+  
+  .texto {
+    font-size: 14px;
+      margin: 0px;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 30px;
+  }
+  
+  .texto p {
+    padding: 10px;
+    width: 300px;
+    margin-left: -270px;
+    text-align: center;
+    
+   
+  }
+  
+  .red-more{
+    text-align:left;
+    margin-left: -150px;
+  }
+  
+  .seeall {
+    margin-left: 0px;
+  }
+  
+  .seeall a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .titulo-1 {
+    
+    font-size: 30px;
+      margin-top:  200px;
+      flex-direction: column;
+      text-align: center;
+      margin-left: -280px;
+      margin-bottom: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    
+  }
+  
+  .section-3 {
+    display: flex;
+    margin-top: 40px;
+  }
+  .contenedor2 {
+    display: flex;
+    text-align:right;
+    margin-right: -1500px;
+    flex-direction: column;
+    padding-right: 100px;
+  }
+  
+  .tp-1 {
+  
+    font-size: 14px;
+    margin-top:  60px;
+    flex-direction: column;
+    text-align: center;
+    margin-left: -370px;
+    margin-bottom: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  .titulo-2 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: -10px;
+  }
+  
+  .parrafo-2{
+    font-size: 14px;
+    margin-top:  20px;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    width: 300px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  
+  }
+  
+  
+  .img8 {
+    display: flex;
+    height: 450px;
+   margin-left: -250px;
+    margin-top: 450px;
+    width: 300px;
+    height: 200px;
+  }
+  
+  
+  .img9 {
+    display: flex;
+    height: 450px;
+    margin-left: -360px;
+    margin-top: 290px;
+    width:300px;
+    height: 200px;
+  
+  }
+  
+
+  
+  .section-4 {
+    display: flex;
+    background-color: rgba(180, 171, 171, 0.103);
+  }
+  .div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 900px;
+    margin: 50px 0;
+  }
+  
+  .display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .display .tp-2 {
+    margin-left: 20px;
+  }
+  
+  .ultimoparrafo {
+    margin: 30px;
+    width: 300px;
+  }
+  .men {
+    /* margin-top: 120px; */
+  
+    width: 130px;
+    height: 130px;
+    box-shadow: rgb(75, 72, 72) 10px 10px;
+  }
+  
+  
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* flex-wrap: wrap; */
+  }
+
 
   .sec5{
     margin: auto;
