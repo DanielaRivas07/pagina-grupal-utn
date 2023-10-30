@@ -366,10 +366,7 @@ button:hover {
 }
 
 
-/*
-  
-   
-  /* sectio4 */
+/* section5 */
 
 section {
   display: flex;
@@ -464,6 +461,7 @@ footer {
   width: 90%;
   height: 160px;
   padding-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 .part1 {
@@ -591,6 +589,7 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    
   }
 
   .caja-1 {
@@ -697,6 +696,117 @@ footer {
     margin: 10px 0px 0px 0px;
   }
 
+  /* section5 */
+  .sec5{
+    margin: auto;
+  }
+
+  .prueba{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .primero{
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 60px;
+    
+  }
+
+  
+  .caja1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    
+   
+  }
+  
+  .caja2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .parra1{
+    margin-left: 50px;
+    width: 300px;
+  }
+
+  .h2-1{
+    margin-left: 50px;
+    width: 300px;
+  }
+
+  .btn-3{
+    justify-content: center;
+    height: 40px;
+  }
+
+  .segundo{
+    
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    flex-direction: column;
+    width: auto;
+    width: 300px;
+  }
+
+  .titulo5{
+    margin-top: 10px;
+    width: 300px;
+  }
+
+  .titulo6{
+    margin-top: 10px;
+    width: 300px;
+  }
+
+  .pf{
+    margin-top: 10px;
+     width: 300px; 
+  }
+
+  .pfo{
+    margin-top: 10px;
+    width: 300px;
+  }
+  /* fin de section5 */
+  /* inicio de footer */
+  footer{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .part1{
+    padding: 20px 0;
+    margin: auto;
+  }
+
+  .part2{
+    margin: auto;
+  }
+  .part3{
+    margin: auto;
+  }
+  .part4{
+    padding-top: 20px;
+    margin: auto;
+  }
+  /* fin de footer  */
 }
 
 
@@ -915,4 +1025,113 @@ footer {
   .btn-2 {
     margin-top: 20px;
   }
+
+  .sec5{
+    margin: auto;
+  }
+
+  .primero{
+    
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    margin-top: 20%;
+    
+    
+  }
+
+  
+  .caja1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    
+   
+  }
+  
+  .caja2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .parra1{
+    
+    margin: auto;
+    width: 300px;
+  }
+
+  .h2-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 300px;
+  }
+
+  .btn-3{
+    justify-content: center;
+    height: 40px;
+  }
+
+  .segundo{
+    
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    flex-direction: column;
+    width: auto;
+    width: 300px;
+  }
+
+  .titulo5{
+    margin-top: 10px;
+    width: 300px;
+  }
+
+  .titulo6{
+    margin-top: 10px;
+    width: 300px;
+  }
+
+  .pf{
+    margin-top: 10px;
+     width: 300px; 
+  }
+
+  .pfo{
+    margin-top: 10px;
+    width: 300px;
+  }
+
+  footer{
+    
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .part1{
+    padding: 20px 0;
+    margin: auto;
+  }
+
+  .part2{
+    margin: auto;
+  }
+  .part3{
+    margin: auto;
+  }
+  .part4{
+    padding-top: 20px;
+    margin: auto;
+  }
+  
 }
