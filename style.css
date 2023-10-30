@@ -347,22 +347,29 @@ button:hover {
 .display {
   display: flex;
   justify-content: center;
-  align-items: center;
+  
 }
 
 .display .tp-2 {
   margin-left: 20px;
 }
 
+.tp-2{
+  text-align: start;
+}
+
+.tp-2-1{
+  color: var(--colortres);
+}
+
 .ultimoparrafo {
   margin: 30px 0;
+  width: 600px;
+  text-align: center;
+  color: var(--colortres);
 }
 .men {
-  /* margin-top: 120px; */
-
-  width: 130px;
-  height: 130px;
-  box-shadow: rgb(75, 72, 72) 10px 10px;
+  box-shadow:  -15px -15px  rgb(49, 47, 47) ;
 }
 
 
@@ -931,8 +938,6 @@ footer {
     margin: auto;
     width: auto;
     text-align: center;
-
-    
     position:auto;
   }
 
@@ -1110,8 +1115,6 @@ footer {
   }
 
   footer{
-    
-    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1119,14 +1122,12 @@ footer {
   }
 
   .part1{
-    padding: 20px 0;
     margin: auto;
   }
 
-  .part2{
-    margin: auto;
-  }
+ 
   .part3{
+    padding-left: 40px;
     margin: auto;
   }
   .part4{
