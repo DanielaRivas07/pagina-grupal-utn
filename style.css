@@ -228,7 +228,7 @@ body {
 .btn-2 {
   display: flex;
   position: relative;
-  left: -929px;
+  left: -759px;
   bottom: -293px;
 }
 
@@ -346,8 +346,18 @@ body {
 }
 
 .tp-2-1{
+  margin-top: 10px;
   color: var(--colortres);
 }
+
+.iconos{
+  margin-top: 20px;
+}
+
+.iconos i{
+  margin-right: 7px;
+}
+
 
 .ultimoparrafo {
   margin: 30px 0;
@@ -394,6 +404,7 @@ section {
 }
 
 .img {
+
   margin-right: 20px;
 }
 
@@ -404,10 +415,10 @@ section {
   display: flex;
 }
 .titulo5 {
-  margin-top: -8px;
+  margin-top: 2px;
 }
 .titulo6 {
-  margin-top: -8px;
+  margin-top: 2px;
 }
 
 .img1 {
@@ -418,6 +429,7 @@ section {
 }
 
 .pfo {
+  
   width: 400px;
   margin-bottom: 40px;
 }
@@ -624,7 +636,11 @@ footer {
   }
   
   .btn-1 {
+
     width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 
   }
@@ -666,6 +682,13 @@ footer {
 
   .caja4 {
     flex-direction: column;
+    text-align: center;
+  }
+
+  .btn-2{
+    width: auto;
+    
+    align-items: center;
     text-align: center;
   }
 
@@ -832,11 +855,7 @@ footer {
     margin: 30px;
     width: 300px;
   }
-  .men {
-    width: 130px;
-    height: 130px;
-    
-  }
+  
   
   section {
     display: flex;
@@ -969,7 +988,7 @@ footer {
 
 
 /* Estilos para pantallas con un ancho menor o igual a 768px */
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1250px) {
 
   /* Ajustes para el encabezado (header) */
   header {
@@ -1084,6 +1103,8 @@ footer {
     text-align: center;
     position:auto;
   }
+
+  
 
   /* Ajustes para LA SEGUNDA SECCION (caja4) */
 
