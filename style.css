@@ -561,6 +561,7 @@ footer {
   header {
     padding: 15px;
     flex-direction: column;
+    
   }
 
   .logo {
@@ -568,12 +569,13 @@ footer {
     height: auto;
     padding: auto;
     display: flex;
-    align-items: center;
-    margin: 0px 0px 0px 65px;
+    margin: auto;
+    /* margin: 0px 0px 0px 65px; */
   }
 
   .menu1 {
     padding: 5px;
+    margin: auto;
   }
 
   .menu {
@@ -581,6 +583,7 @@ footer {
     flex-direction: row;
     padding: 1px;
     margin-top: 0px;
+    margin: auto;
   }
 
   .estilonav {
@@ -1149,7 +1152,11 @@ footer {
 
   .parrafo2 {
     font-size: 15px;
-    margin: 40px 25px 0px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 20px;
   }
 
 
